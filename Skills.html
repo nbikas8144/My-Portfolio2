@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+</head>
+<body>
+    <section id="skill" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Skill 1 -->
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="asset/c.jpg" alt="CSS Icon">
+                </div>
+                <h3>C</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css-level"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="asset/java.jpg" alt="CSS Icon">
+                </div>
+                <h3>Java</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css-level"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="asset/html.jpg" alt="HTML Icon">
+                </div>
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level html-level"></div>
+                </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="asset/css.jpg" alt="CSS Icon">
+                </div>
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css-level"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="asset/js.jpg" alt="CSS Icon">
+                </div>
+                <h3>javascript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css-level"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<style>
+    .skills-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skills-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: #fff
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #b56060;
+    border-radius: 25px;
+    height: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.skill-level {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 25px;
+    transition: width 0.3s ease-in-out;
+}
+</style>

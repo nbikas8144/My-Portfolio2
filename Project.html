@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+</head>
+<body>
+    <section id="project">
+        <h1>My project</h1>
+
+        <div class="group-card">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/TD.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>ToDo-List</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a 
+                    href="https://github.com/nbikas8144/ToDo" class="view-botton">Live </a>
+                        <a href="https://nbikas8144.github.io/ToDo/index.html" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/QA.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Quiz-App</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="https://github.com/nbikas8144/Quiz" class="view-botton">Live </a>
+                        <a href="https://nbikas8144.github.io/Quiz/" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/TC.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Theam-Clock</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="https://github.com/nbikas8144/theme-clock" class="view-botton">Live </a>
+                        <a href="nbikas8144.github.io/theme-clock/" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/SA.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Scroll-Animation</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="https://github.com/nbikas8144/Scroll-Animation" class="view-botton">Live </a>
+                        <a href="nbikas8144.github.io/Scroll-Animation/" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/p.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>My-Portfolio</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="" class="view-botton">Live </a>
+                        <a href="" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/BS.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>background-slider</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="https://github.com/nbikas8144/background-slider" class="view-botton">Live </a>
+                        <a href="https://nbikas8144.github.io/background-slider/" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="asset/F.png" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Fitness-GYM</h3>
+                    <p>A brief description of the project goes here.This is an overview of what the project is about <a
+                            href="hire.html" class="view-botton">Live </a>
+                        <a href="hire.html" class="view-botton">Code source</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
+<style>
+    #project{
+background-color: #f9f9f9;
+
+}
+#project h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.group-card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.project-card{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0   4px 8px rgba(0,0,0,0.3); 
+    display: flex;
+    }
+    .project-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .project-description{
+        position: absolute;
+        top: 0%;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: left 0.5s ease;
+    }
+    .project-description h3{
+        margin: 0;
+        font-size: 1.5rem;
+        color: #ffdd77;
+    }
+    .project-description p{
+        margin: 10px 0;
+        padding: 0 20px;
+        font-size:1em ;
+        color: #ffdd77;
+    }
+    .project-card:hover
+    .project-description{
+        left: 0;
+        
+    }
+
+</style>
